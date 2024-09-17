@@ -16,7 +16,7 @@ sudo snap install stress-ng-dev --devmode --beta
 ## Updates
 
 This snap is available only under the `latest/beta` or `latest/edge` [channels](https://snapcraft.io/docs/channels) or, in some cases, under a specific [branch](https://snapcraft.io/docs/channels#heading--branches).
-Updates are not automatically done as they are with [strictly confined and classic confined snaps](https://snapcraft.io/docs/snap-confinement).
+Because this snap is released in developer mode, it does not receive automatic updates as with [strictly confined and classic snaps](https://snapcraft.io/docs/snap-confinement).
 
 To manually update the snap, use:
 
