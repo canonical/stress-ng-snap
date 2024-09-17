@@ -25,8 +25,7 @@ Firstly, build it using [Snapcraft](https://snapcraft.io/snapcraft):
 snapcraft -v
 ```
 
-Then, install it in [dangerous mode](https://snapcraft.io/docs/install-modes#heading--dangerous) and [devmode](https://snapcraft.io/docs/install-modes#heading--devmode):
+Then, install it in [devmode](https://snapcraft.io/docs/install-modes#heading--devmode):
 
 ```bash
-sudo snap install --dangerous --devmode *.snap
-```
+sudo snap install --devmode *.snap
