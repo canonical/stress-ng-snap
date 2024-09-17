@@ -10,8 +10,7 @@ Keep in mind that snaps installed in developer mode don't upgrade automatically.
 It should be removed after testing or upgraded manually.
 
 ```bash
-sudo snap install stress-ng --devmode
-```
+sudo snap install stress-ng-dev --devmode
 ## Use
 
 For usage instructions refer to:
