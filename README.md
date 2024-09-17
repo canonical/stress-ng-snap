@@ -19,7 +19,7 @@ For usage instructions refer to:
 
 ### Local Build
 
-Firstly, build it using [Snapcraft](https://snapcraft.io/snapcraft):
+Build it using [Snapcraft](https://snapcraft.io/snapcraft):
 
 ```bash
 snapcraft -v
