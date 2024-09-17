@@ -5,18 +5,19 @@ This is a snap packaging of [stress-ng](https://github.com/ColinIanKing/stress-n
 ## Install
 
 This snap is available under [developer mode confinement](https://snapcraft.io/docs/install-modes#heading--devmode).
-This is because `stress-ng` is a testing tool that needs a wide range of access to the system. 
-Keep in mind that snaps installed in developer mode don't upgrade automatically.
+This is because `stress-ng` is a testing tool that needs a wide range of access to the system.
+Keep in mind that snaps installed in developer mode don't upgrade automatically like [strictly confined and classic snaps](https://snapcraft.io/docs/snap-confinement) does.
+
 It should be removed after testing or upgraded manually.
 
+Because of its confinement mode, this snap is only available under the `latest/beta` or `latest/edge` [channels](https://snapcraft.io/docs/channels).
+stress-ng snap can be installed with:
 ```bash
 sudo snap install stress-ng-dev --devmode --beta
 ```
 
 ## Updates
 
-This snap is available only under the `latest/beta` or `latest/edge` [channels](https://snapcraft.io/docs/channels) or, in some cases, under a specific [branch](https://snapcraft.io/docs/channels#heading--branches).
-Because this snap is released in developer mode, it does not receive automatic updates as with [strictly confined and classic snaps](https://snapcraft.io/docs/snap-confinement).
 
 To manually update the snap, use:
 
