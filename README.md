@@ -15,7 +15,7 @@ The most stable revision can be installed with:
 sudo snap install stress-ng-dev --devmode --beta
 ```
 
-## Updates
+## Update
 
 
 To manually update the snap, use:
