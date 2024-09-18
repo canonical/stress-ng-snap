@@ -1,4 +1,4 @@
-# stress-ng-snap
+# stress-ng snap
 
 This is a snap packaging of [stress-ng](https://github.com/ColinIanKing/stress-ng), a tool to load and stress a computer.
 
@@ -15,6 +15,27 @@ The most stable revision can be installed with:
 sudo snap install stress-ng-dev --devmode --beta
 ```
 
+The stress-ng command should now be availble from the snap's namespace:
+```console
+$ which stress-ng-dev.stress-ng 
+/snap/bin/stress-ng-dev.stress-ng
+```
+
+### Add aliase
+You can add an [aliase](https://snapcraft.io/docs/commands-and-aliases) to run the program without the namespace. For example:
+```console
+$ sudo snap alias stress-ng-dev.stress-ng stress-ng
+Added:
+  - stress-ng-dev.stress-ng as stress-ng
+
+$ which stress-ng
+/snap/bin/stress-ng
+```
+
+> [!NOTE]
+> If the alias matches the command installed with deb package, the application from the deb may be found first.
+> This depends on the order of directories listed in the `PATH` environment variable.
+
 ## Update
 
 To manually update the snap, use:
@@ -29,20 +50,6 @@ For usage instructions refer to:
 
 - [Ubuntu Wiki page about stress-ng](https://wiki.ubuntu.com/Kernel/Reference/stress-ng)
 - [Ubuntu Man page](https://manpages.ubuntu.com/manpages/noble/man1/stress-ng.1.html)
-
-### Add aliases
-You can add [aliases](https://snapcraft.io/docs/commands-and-aliases) to run the program commands without the namespace. For example:
-```console
-$ sudo snap alias stress-ng-dev.stress-ng stress-ng
-Added:
-  - stress-ng-dev.stress-ng as stress-ng
-
-$ which stress-ng
-/snap/bin/stress-ng
-```
-> [!NOTE]
-> If the alias matches the command installed with deb package, the application from the deb may be found first.
-> This depends on the order of directories listed in the `PATH` environment variable.
 
 ### Local Build
 
