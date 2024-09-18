@@ -10,8 +10,7 @@ Keep in mind that snaps installed in developer mode don't upgrade automatically 
 
 It should be removed after testing or upgraded manually.
 
-Because of its confinement mode, this snap is only available under the `latest/beta` or `latest/edge` [channels](https://snapcraft.io/docs/channels).
-
+Because of its confinement mode, this snap is only available in the `latest/beta` and `latest/edge` [channels](https://snapcraft.io/docs/channels).
 The most stable revision can be installed with:
 ```bash
 sudo snap install stress-ng-dev --devmode --beta
