@@ -15,14 +15,14 @@ The most stable revision can be installed with:
 sudo snap install stress-ng-dev --devmode --beta
 ```
 
-The stress-ng command should now be availble from the snap's namespace:
+The stress-ng command should now be available from the snap's namespace:
 ```console
 $ which stress-ng-dev.stress-ng 
 /snap/bin/stress-ng-dev.stress-ng
 ```
 
 ### Add aliase
-You can add an [aliase](https://snapcraft.io/docs/commands-and-aliases) to run the program without the namespace. For example:
+You can add an [alias](https://snapcraft.io/docs/commands-and-aliases) to run the program without the namespace. For example:
 ```console
 $ sudo snap alias stress-ng-dev.stress-ng stress-ng
 Added:
