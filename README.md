@@ -17,7 +17,6 @@ sudo snap install stress-ng-dev --devmode --beta
 
 ## Update
 
-
 To manually update the snap, use:
 
 ```bash
@@ -41,6 +40,8 @@ Added:
 $ which stress-ng
 /snap/bin/stress-ng
 ```
+ Note that if the alias matches the command installed with deb package, the application from the deb may be found first.
+ This depends on the order of directories listed in the PATH variable.
 
 ### Local Build
 
