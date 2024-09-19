@@ -21,7 +21,7 @@ $ which stress-ng-dev.stress-ng
 /snap/bin/stress-ng-dev.stress-ng
 ```
 
-### Add aliase
+### Add alias
 You can add an [alias](https://snapcraft.io/docs/commands-and-aliases) to run the program without the namespace. For example:
 ```console
 $ sudo snap alias stress-ng-dev.stress-ng stress-ng
