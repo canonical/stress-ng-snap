@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if ! grep -q snap_core= /proc/cmdline
+then
+    logger --stderr "This snap is meant for Ubuntu Core hosts. Detected: $NAME"
+    exit 1
+fi
