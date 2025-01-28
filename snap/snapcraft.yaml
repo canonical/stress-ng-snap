@@ -3,9 +3,12 @@ base: core24
 adopt-info: version
 summary: stress-ng will stress test a computer system in various selectable ways
 description: |
-  This snap is intended for use only on Ubuntu Core systems.
-  For other Ubuntu installations, such as server or desktop, the recommended option is to use the Debian package.
+  The snap is intended for use on Ubuntu Core (https://ubuntu.com/core) only.
 
+  For Ubuntu Server/Desktop, install the stress-ng Debian package.
+  For other installation methods, refer to:
+  https://github.com/ColinIanKing/stress-ng/blob/master/README.md
+  
 platforms:
   amd64:
     build-on: [amd64]

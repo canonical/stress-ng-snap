@@ -3,6 +3,12 @@
 
 This is a snap packaging of [stress-ng](https://github.com/ColinIanKing/stress-ng), a tool to load and stress a computer.
 
+> [!IMPORTANT]
+> The snap is intended for use on [Ubuntu Core](https://ubuntu.com/core) only.
+> 
+> For Ubuntu Server/Desktop, install the `stress-ng` Debian package.  
+> For other installation methods, refer to [stress-ng's README](https://github.com/ColinIanKing/stress-ng/blob/master/README.md).
+
 ## Install
 
 This snap is available under [developer mode confinement](https://snapcraft.io/docs/install-modes#heading--devmode).
