@@ -5,12 +5,13 @@ summary: Stress-ng for Ubuntu Core
 description: |
   The snap is intended for use on Ubuntu Core (https://ubuntu.com/core) only.
   
-  For Ubuntu Server/Desktop, install the stress-ng Debian package.
+  For Ubuntu Server/Desktop, install the `stress-ng` Debian package.
   
   For other installation methods, refer to:
   https://github.com/ColinIanKing/stress-ng/blob/master/README.md
   
-  This snap package includes stress-ng (licensed under GPL-2) along with multiple dependencies under various licenses. License files for all bundled projects can be found inside the snap package at `./usr/share`.
+  This snap package includes `stress-ng` (licensed under GPL-2) along with multiple dependencies under various licenses.
+  License files for all bundled projects can be found inside the snap package at `./usr/share`.
   
 platforms:
   amd64:
