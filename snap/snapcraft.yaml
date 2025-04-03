@@ -1,13 +1,21 @@
 name: stress-ng-dev
 base: core24
 adopt-info: version
-summary: stress-ng will stress test a computer system in various selectable ways
+summary: Stress-ng for Ubuntu Core
 description: |
+  This snap package includes stress-ng (licensed under GPL-2) along with multiple dependencies under various licenses.
+  License files for all bundled projects can be found inside the snap package at `./usr/share`.
+  
   The snap is intended for use on Ubuntu Core (https://ubuntu.com/core) only.
-
-  For Ubuntu Server/Desktop, install the stress-ng Debian package.
+  It can be used to stress test a computer system, running Ubuntu Core, in various selectable ways.
+  
+  For Ubuntu Server/Desktop, install the `stress-ng` Debian package.
+  
   For other installation methods, refer to:
   https://github.com/ColinIanKing/stress-ng/blob/master/README.md
+
+  For source code of the snap packaging, refer to:
+  https://github.com/canonical/stress-ng-snap
   
 platforms:
   amd64:
