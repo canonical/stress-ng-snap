@@ -7,6 +7,7 @@ description: |
   License files for all bundled projects can be found inside the snap package at `./usr/share`.
   
   The snap is intended for use on Ubuntu Core (https://ubuntu.com/core) only.
+  It can be used to stress test a computer system, running Ubuntu Core, in various selectable ways.
   
   For Ubuntu Server/Desktop, install the `stress-ng` Debian package.
   
